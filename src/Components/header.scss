@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.menu {
+  & > ul {
+    display: flex;
+
+    & > li {
+      margin: 0 1rem;
+    }
+  }
+
+}
