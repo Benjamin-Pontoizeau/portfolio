@@ -2,7 +2,7 @@ import './header.scss';
 
 export function Header() {
   return (
-    <header>
+    <header className='bg-slate-900'>
       <div>
         <h1>Benjamin Grelet</h1>
       </div>

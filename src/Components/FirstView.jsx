@@ -35,8 +35,11 @@ export function FirstView() {
   }, []); // Déclencher l'effet uniquement au montage
 
   return (
-    <section>
+    <section className="100-vh">
       <Header />
+      <button className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
+        Explore
+      </button>
       <div id="stars-container">
         {stars.map((star, index) => (
           <div key={index} className="star" style={{ top: star.top, left: star.left }}></div>
